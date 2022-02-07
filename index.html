@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp - Product Landing Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+ 
+<header id="header">
+
+        <img id="header-img" src="https://pbs.twimg.com/media/DRnSZwGVoAAA7pL?format=jpg&name=900x900" alt="BAND-MAID logo"
+        height="100px">
+
+
+<nav id="nav-bar">
+    <ul class="nav-list">
+    <li><a href="#band" class="nav-link">O zespole</a></li>
+    <li><a href="#yt-video" class="nav-link">Koncerty</a></li>
+    <li><a href="#subscribe" class="nav-link">Newsletter</a></li>
+</ul>
+
+</nav>
+</header>
+
+<div class="container">
+<section id="band">
+<h1>BAND-MAID</h1>
+<h2>O zespole</h2>
+<p>Japoński zespół hard rockowy pochodzący z Tokio utworzony w 2013 roku.</p>
+<ul class="bm-members-list">
+    <li class="bm-members"><span>Miku Kobato</span>: gitara, wokal prowadzący</li>
+    <li class="bm-members"><span>Kanami Tōno</span>: gitara</li>
+    <li class="bm-members"><span>Akane Hirose</span>: perkusja</li>
+    <li class="bm-members"><span>Misa</span>: gitara basowa</li>
+    <li class="bm-members"><span>Saiki Atsumi</span>: wokal prowadzący</li>
+</ul>
+</section>
+
+
+<section id="yt-video">
+    <iframe 
+        id="video" 
+        width="853" 
+        height="480" 
+        src="https://www.youtube.com/embed/QbyQCJn6rYg" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</section>
+
+<section id="subscribe">
+    <h2>Zapisz się do newslettera</h2>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Wprowadź tu swój addres email"
+          required
+        />
+        <input id="submit" type="submit" value="Subskrybuj!" class="btn" />
+      </form>
+</section>
+</div>
+</body>
+</html>

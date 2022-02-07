@@ -1,0 +1,74 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+@media (max-width: 650px) {
+    ul {
+        flex-direction: column;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 120px auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 110px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-list {
+      display: flex;
+  }
+
+  .nav-list li {
+      margin: 20px;
+  }
+
+  .yt-video {
+      display: flex;
+      justify-content: center;
+      margin: 40px 0;
+  }
+
+  #subscribe {
+      border: 1px solid whitesmoke;
+      height: 150px;
+      border-radius: 4%;
+      margin: 20px 0;
+  }
+
+  form {
+      text-align: center;
+      margin: 50px 0;
+  }
+
+  h1 {
+      font-size: 50px;
+  }
